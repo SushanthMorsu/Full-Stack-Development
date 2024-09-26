@@ -1,0 +1,127 @@
+/* General styles */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #b6b6b6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 10px;
+    background-color: #b9b9b9;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.form-section, .list-section, .table-section {
+    background-color: rgb(209, 222, 224);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold ;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    border: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #0c61bb;
+}
+
+
+#employeeList {
+    margin-top: 10px;
+}
+
+#employeeList li {
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#employeeList li a {
+    color: blue;
+    text-decoration: none;
+}
+
+#employeeList li a:hover {
+    text-decoration: underline;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #368dea;
+    color: white;
+}
+
+td img {
+    border-radius: 50%;
+}
+
+
+.map-section {
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 720px) {
+    button {
+        width: 80%;
+    }
+
+    iframe {
+        height: 200px;
+    }
+}
